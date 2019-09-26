@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Participation09-26\Array.csproj", "{61403CFF-D38A-4145-82E5-938477180284}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "createList", "createList\createList.csproj", "{2C74FCDA-6EA9-4968-963D-A7B9DB567CC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dictionary", "dictionary\dictionary.csproj", "{AF471090-FD25-461C-85AA-BFB2A89FF9E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61403CFF-D38A-4145-82E5-938477180284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61403CFF-D38A-4145-82E5-938477180284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61403CFF-D38A-4145-82E5-938477180284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61403CFF-D38A-4145-82E5-938477180284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C74FCDA-6EA9-4968-963D-A7B9DB567CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C74FCDA-6EA9-4968-963D-A7B9DB567CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C74FCDA-6EA9-4968-963D-A7B9DB567CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C74FCDA-6EA9-4968-963D-A7B9DB567CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF471090-FD25-461C-85AA-BFB2A89FF9E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF471090-FD25-461C-85AA-BFB2A89FF9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF471090-FD25-461C-85AA-BFB2A89FF9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF471090-FD25-461C-85AA-BFB2A89FF9E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B9CB79A-6506-4A26-9FE7-5052FAE6119A}
+	EndGlobalSection
+EndGlobal

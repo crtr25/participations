@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExample", "ArrayExampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{CDD489D4-5D8D-4239-826E-C69C5E3E7AC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayParticipation", "CollectionsParticipations\ArrayParticipation.csproj", "{DCA99D6C-0433-4514-8879-827F8D8AC577}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CDD489D4-5D8D-4239-826E-C69C5E3E7AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDD489D4-5D8D-4239-826E-C69C5E3E7AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDD489D4-5D8D-4239-826E-C69C5E3E7AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA99D6C-0433-4514-8879-827F8D8AC577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA99D6C-0433-4514-8879-827F8D8AC577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA99D6C-0433-4514-8879-827F8D8AC577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA99D6C-0433-4514-8879-827F8D8AC577}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
