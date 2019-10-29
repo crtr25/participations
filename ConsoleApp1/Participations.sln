@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayParticipation", "Colle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "collectionMinMax", "collectionMinMax\collectionMinMax.csproj", "{1898DBE6-B783-4691-8BBF-909016F6C3C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class", "Class\Class.csproj", "{17488C6D-9160-450F-B0F3-B97CCC5512DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{1898DBE6-B783-4691-8BBF-909016F6C3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1898DBE6-B783-4691-8BBF-909016F6C3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1898DBE6-B783-4691-8BBF-909016F6C3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17488C6D-9160-450F-B0F3-B97CCC5512DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17488C6D-9160-450F-B0F3-B97CCC5512DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17488C6D-9160-450F-B0F3-B97CCC5512DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17488C6D-9160-450F-B0F3-B97CCC5512DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
