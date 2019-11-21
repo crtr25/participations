@@ -6,13 +6,20 @@
         xmlns:local="clr-namespace:football_schedule"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <ListBox x:Name="lsbAway" HorizontalAlignment="Left" Height="231" Margin="342,57,0,0" VerticalAlignment="Top" Width="135"/>
-        <ListBox x:Name="lsbHome" HorizontalAlignment="Left" Height="231" Margin="212,57,0,0" VerticalAlignment="Top" Width="125"/>
-        <TextBox x:Name="txtHome" HorizontalAlignment="Left" Height="26" Margin="212,26,0,0" TextWrapping="Wrap" Text="Home Games" VerticalAlignment="Top" Width="112" />
-        <TextBox x:Name="txtAway" HorizontalAlignment="Left" Height="26" Margin="342,26,0,0" TextWrapping="Wrap" Text="Away Games" VerticalAlignment="Top" Width="112"/>
-        <ComboBox x:Name="cmbYear" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="25,57,0,0"/>
-        <TextBox x:Name="txtSelect" HorizontalAlignment="Left" Height="26" Margin="25,26,0,0" TextWrapping="Wrap" Text="Select a year" VerticalAlignment="Top" Width="112" />
+    <Grid Background="#FF7C0303">
+        <ListBox x:Name="lsbAway" HorizontalAlignment="Left" Height="231" Margin="342,57,0,0" VerticalAlignment="Top" Width="135" Foreground="#FF8D0A0A"/>
+        <ListBox x:Name="lsbHome" HorizontalAlignment="Left" Height="231" Margin="212,57,0,0" VerticalAlignment="Top" Width="125" Foreground="#FF960606"/>
+        <TextBox x:Name="txtHome" HorizontalAlignment="Left" Height="26" Margin="212,26,0,0" TextWrapping="Wrap" Text="Home Games" VerticalAlignment="Top" Width="112" Foreground="#FFA80000" Background="Black" />
+        <TextBox x:Name="txtAway" HorizontalAlignment="Left" Height="26" Margin="342,26,0,0" TextWrapping="Wrap" Text="Away Games" VerticalAlignment="Top" Width="112" Foreground="#FFA80000" Background="Black"/>
+        <ComboBox x:Name="cmbYear" HorizontalAlignment="Left" VerticalAlignment="Top" Width="112" Margin="25,57,0,0" SelectionChanged="CmbYear_SelectionChanged" Foreground="#FF8E0808" Height="37"/>
+        <TextBox x:Name="txtSelect" HorizontalAlignment="Left" Height="26" Margin="25,26,0,0" TextWrapping="Wrap" Text="Select a year" VerticalAlignment="Top" Width="112" Background="#FF050000" Foreground="White" >
+            <TextBox.SelectionBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.SelectionBrush>
+        </TextBox>
 
     </Grid>
 </Window>
