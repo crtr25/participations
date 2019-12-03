@@ -22,6 +22,7 @@ namespace WpfApp1
     {
         public MainWindow()
         {
+            
             InitializeComponent();
         }
 
@@ -41,7 +42,15 @@ namespace WpfApp1
             TXTStudentID.Text = string.Empty;
             TXTFavoriteColor.Text = string.Empty;
 
+            //do the file part
+            string text = System.IO.File.ReadAllText(@"C:\Users\clint\Downloads\studentdataRandom100Rows");
+            foreach (var name in text)
+            {
 
+            }
+            file.ReadAllLines(studentdataRandom100Rows);
+
+            
 
 
 

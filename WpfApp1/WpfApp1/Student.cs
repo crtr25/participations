@@ -15,7 +15,7 @@ namespace WpfApp1
 
         public Student()
         {
-            StudentID = 0;
+            StudentID = StudentID;
             FirstName = "";
             LastName = "";
             FavoriteColor = "";

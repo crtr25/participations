@@ -11,7 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
+//using System.Windows.Shapes;
 
 namespace football_schedule
 {
@@ -49,8 +49,17 @@ namespace football_schedule
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            
+            
+        }
+
+        private void CmbYear_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            lsbHome.Items.Clear();
+            lsbAway.Items.Clear();
             int selectSeason = (int)cmbYear.SelectedValue;
-            foreach (var year in FBDB.FootballSchedules.Where(FBDB => FBDB.Season == Convert.ToInt32(cmbYear.SelectedValue)))
+       
+            foreach (var year in FBDB.FootballSchedules.Where(FBDB => FBDB.Season == selectSeason))
             {
                 if (year.IsHomeGame)
                 {
@@ -60,7 +69,6 @@ namespace football_schedule
                 {
                     lsbAway.Items.Add(year.Opponent);
                 }
-        
 
             }
         }
