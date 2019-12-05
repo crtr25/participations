@@ -21,7 +21,7 @@
         <Label Content="Word:" HorizontalAlignment="Left" Height="28" Margin="296,148,0,0" VerticalAlignment="Top" Width="162" RenderTransformOrigin="-1.797,-1.86" FontSize="16"/>
         <Label Content="Letter:" HorizontalAlignment="Left" Height="28" Margin="296,181,0,0" VerticalAlignment="Top" Width="162" FontSize="16"/>
         <GroupBox Header="      &#xD;&#xA;       Letter Count" HorizontalAlignment="Left" Height="326" Margin="296,54,0,0" VerticalAlignment="Top" Width="292" FontSize="30" FontWeight="Bold"/>
-        <Button x:Name="btn1" Content="Count Leters" HorizontalAlignment="Left" Height="46" Margin="366,247,0,0" VerticalAlignment="Top" Width="157" FontSize="20" Click="Btn1_Click"/>
+        <Button x:Name="btn1" Content="Count Leters" HorizontalAlignment="Left" Height="46" Margin="366,247,0,0" VerticalAlignment="Top" Width="157" FontSize="20" Click="Btn1_Click" IsDefault="True"/>
         <Label x:Name="lb1" Content="" HorizontalAlignment="Left" Height="35" Margin="326,323,0,0" VerticalAlignment="Top" Width="241" IsEnabled="False"/>
 
     </Grid>
