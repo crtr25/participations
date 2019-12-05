@@ -14,14 +14,15 @@ namespace FinalExamReview
             do
         {   //variables
 
-                double addition = 0;
+               // double addition = 0;
                 double subtraction = 0;
                 double multiplication = 0;
                 double LeftPower = 0;
                 double RightPower = 0;
 
           
-               Equation eq = new Equation();
+            Equation eq = new Equation();
+
             Console.WriteLine("Pick your first number.");
             eq.Left = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Pick your second number");
@@ -29,13 +30,14 @@ namespace FinalExamReview
             Console.WriteLine("Would you like to add, subtract, multiply, exponent?");
             string choice = Console.ReadLine().ToLower();
 
+                
+
          
 
             if (choice == "add")
             {
                addition = eq.Add();
                 Console.WriteLine(addition);
-              
             }
             else if (choice == "subtract")
             {
@@ -55,7 +57,7 @@ namespace FinalExamReview
                 string number = Console.ReadLine().ToLower();
                 Console.WriteLine("To what power do you want to raise that number too? Pick a number.");
                 int exp = Convert.ToInt16(Console.ReadLine());
-
+                 
                 if (number == "first")
                 {
                      LeftPower = eq.LeftToThePower(exp);
@@ -68,13 +70,14 @@ namespace FinalExamReview
                     Console.WriteLine(RightPower);
                
                  }
+               
             }
-                Console.WriteLine("Do you want to creat an equation? Y or N");
+                Console.WriteLine("Do you want to create an equation? Y or N");
                 loop = Console.ReadLine().ToLower();
             } while (loop == "y");
 
 
-
+           
 
 
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FinalExamReview
+namespace pp1_4._6._1
 {
     class Equation
     {
@@ -38,16 +38,15 @@ namespace FinalExamReview
         }
         public double LeftToThePower(int power)
         {
-            double leftP = Math.Pow(Left,power);
+            double leftP = Math.Pow(Left, power);
             return leftP;
-            
+
         }
         public double RightToThePower(int power)
         {
             double rightP = Math.Pow(Right, power);
             return rightP;
         }
-
 
     }
 }
